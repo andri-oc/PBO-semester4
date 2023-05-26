@@ -11,7 +11,7 @@ public class Praktikum4c {
         // TODO code application logic here
        penggajian objku = new penggajian(); 
        
-       /*objku.setStatusMenikah("Menikah");
+       objku.setStatusMenikah("Menikah");
        System.out.println("Tunjangan Status :"+objku.getTunjStatusMenikah());
        
        objku.setJumlahAnak(1);
@@ -21,7 +21,7 @@ public class Praktikum4c {
        System.out.println("Tunjangan Masa Kerja :"+objku.getTunjMasaKerja());
        
        objku.setGolongan(2);
-       System.out.println("Tunjangan Golongan :"+objku.getTunjGolongan());*/
+       System.out.println("Tunjangan Golongan :"+objku.getTunjGolongan());
        
        System.out.println("Gaji Total : " +objku.gajiTotal("Menikah", 1, 2, 2));
     }
